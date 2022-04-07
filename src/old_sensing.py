@@ -41,7 +41,6 @@ class TouchenceSensor(object):
 
 
     def bit_to_voltage(self, data):
-        #print("int",int(data[4:8], 16))
         #voltage = np.array([ int(data[4:8], 16), int(data[8:12], 16),\
         #                     int(data[12:16], 16), int(data[16:20], 16) ])
         voltage = np.array([ int(data[4:8], 16)])
